@@ -1,12 +1,12 @@
-# An Example SQL MCP Server
+# A Template MCP Server
 
-This repository provides a demonstration implementation of an MCP ([Model Context Protocol](https://modelcontextprotocol.io)) server - an open standard designed to connect AI agents and services (like Claude) to tools and data sources. **The primary goal of this repository is to illustrate how to build, configure, and run a basic MCP server.** The tools are simplified examples and not intended for production use.
+This repository serves as a template, demonstrating how to implement an MCP ([Model Context Protocol](https://modelcontextprotocol.io)) server - an open standard designed to connect AI agents and services (like Claude) to tools and data sources. **The primary goal of this repository is to illustrate how to build, configure, and run a basic MCP server.** The tools are simplified examples and not intended for production use.
 
 This specific example server uses a simple PostgreSQL database backend to manage user data, showcasing how MCP can bridge the gap between AI agents and external resources.
 
 ## Overview
 
-This server acts as a secure gateway between an MCP client (e.g., an AI agent) and an external data source (in this case, a toy PostgreSQL database containing a `users` table). It demonstrates how to:
+The server acts as a secure gateway between an MCP client (e.g., an AI agent) and an external data source (in this case, a toy PostgreSQL database containing a `users` table). It demonstrates how to:
 
 *   Define and expose custom tools via the MCP standard.
 *   Handle requests from an MCP client.
